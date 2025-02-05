@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation with JavaScript & jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery CDN -->
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Welcome to JavaScript & jQuery DOM Manipulation</h1>
+        
+        <!-- Change text using JavaScript -->
+        <button onclick="changeText()">Change Heading</button>
+
+        <!-- Change CSS properties -->
+        <button onclick="changeStyle()">Change Text Color</button>
+
+        <!-- Change Image Source -->
+        <img id="image" src="chelsea.jpg" width="200" height="150" alt="Sample Image">
+        <button onclick="changeImage()">Change Image</button>
+
+        <!-- Add a new text node -->
+        <button onclick="addText()">Add Text</button>
+        <p id="textContainer"></p>
+
+        <!-- Delete a node -->
+        <button onclick="deleteNode()">Delete Node</button>
+        <p id="deleteMe">This paragraph will be deleted.</p>
+
+        <!-- jQuery Operations -->
+        <button id="changeBtnText">Change Button Text (jQuery)</button>
+
+        <!-- Form to access data -->
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Enter Name">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="output"></p>
+
+        <!-- Add Attribute using jQuery -->
+        <button id="addAttrBtn">Add Attribute to Image</button>
+    </div>
+
+    <script src="script.js"></script> <!-- External JS -->
+</body>
+</html>

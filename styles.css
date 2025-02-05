@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+#output {
+    font-weight: bold;
+    color: green;
+}
